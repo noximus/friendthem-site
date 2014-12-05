@@ -1,0 +1,373 @@
+@import url(reset.css);
+
+/*** PAGE ***/
+body {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+article {
+}
+section {
+	margin:0 auto;
+	width:958px;
+	position:relative;
+}
+
+/*** HEADER ***/
+header {
+	display: block;
+	height: 150px;
+}
+header .wrapper {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header .header-nav {
+	display: block;
+	width: 324px;
+	height: 49px;
+	background: url(../images/bg-nav.png) no-repeat -4px top;
+	position: absolute;
+	top: 87px;
+	left: -2px;
+}
+.header-nav li {
+	display: block;
+	float: left;
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 49px;
+	text-align:center;
+}
+.header-nav li a {
+	color: #fff; text-decoration: none;
+	padding:10px;
+	text-shadow: #17203D 0 1px 0px;
+	filter: Shadow(Color=#17203D,Direction=180,Strength=2)
+}
+.header-nav li a:hover {background:url(../images/nav-hover.png) 50% 50% no-repeat;}
+header .active a:hover {
+	background:transparent !important;
+}
+header .active a {
+	color:black !important;
+	text-shadow: white 0 1px 0px;
+	filter: Shadow(Color=#FFFFFF,Direction=180,Strength=2)
+}
+
+header #home {
+	width: 66px;
+}
+header #how {
+	width: 110px;
+}
+header #press {
+	width: 65px;
+	margin-left: -4px;
+}
+header #contact {
+	width: 80px;
+	margin-left: -4px;
+}
+
+/*header li#home:hover {
+	background: url(../images/nav-hover.png) 3px 7px no-repeat;
+}*/
+header #home.active {
+	background: url(../images/nav-home.png) 3px 7px no-repeat;
+}
+header #how.active {
+	background: url(../images/nav-how.png) 0 7px no-repeat;
+}
+header #press.active {
+	background: url(../images/nav-press.png) 3px 7px no-repeat;
+}
+header #contact.active {
+	background: url(../images/nav-contact.png) 3px 7px no-repeat;
+}
+
+header .logo {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 31px;
+	margin-left: -118px;
+}
+
+header .header-link {
+	display: block;
+	width: 115px;
+	height: 49px;
+	text-indent: -9999px;
+	font-size: 0px;
+	position: absolute;
+	top: 87px;
+}
+header .appstore-link {background:url(../images/appstore-link.png) no-repeat left top; right: -5px;}
+header .android-link {background:url(../images/android-link.png) no-repeat left top; right: 104px;}
+
+/*** DOWNLOAD ***/
+/*#download {
+	background:url(../images/bg-download.jpg);
+	width:703px;
+	height:181px;
+	position:relative;
+}
+#download a {
+	position:absolute;
+	width:222px;
+	height:58px;
+	background:url(../images/btn-download.png);
+	text-indent:-9999px;
+}
+#download a:hover {
+	background:url(../images/btn-download-over.png);
+}*/
+a.button {
+	display: block;
+	width: 222px;
+	height: 59px;
+	text-indent: -9999px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	cursor: pointer !important;
+}
+a.button:hover {
+	background-position: 0 -59px;
+}
+a.button:active {
+	background-position: 0 -118px;
+}
+#button_download {
+	background-image: url(../images/downloadnow.png);
+}
+#button_download_adroid {
+	background-image: url(../images/downloadnowAndroid.png);
+}
+
+
+/*** FOOTER ***/
+footer{
+	position:relative;
+	background: white url(../images/bg_footer.png) 0 0 repeat-x;
+	height:370px;
+}
+footer section {
+	margin: 0 auto;
+	width: 958px;
+	position: relative;
+}
+footer h3 {
+	font-size: 16px;
+	color: #001d45;
+}
+footer input:focus { outline: none }
+footer h4 {
+	position: absolute;
+	font-size: 19px;
+	top: 26px;
+	left: 303px;
+	line-height: 25px;
+	width: 453px;
+}
+
+/* COUNT */
+#count {
+	padding: 25px 0 26px;
+	position: relative;
+}
+#count h4 {
+	text-indent: -9999px;
+	background: url(../images/title_count_text.png) 50% 4px no-repeat;
+	height: 45px;
+}
+#count h3 {
+    color: #FFFFFF;
+    display: block;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    height: 45px;
+    position: absolute;
+    right: 550px;
+    top: 28px;
+}
+#count p {
+	color: #fff;
+	position: absolute;
+	text-align: right;
+	top: 52px;
+	right: -1px;
+	font-size: 1.2em;
+}
+#count p a, #count p a:visited {
+	color: #0374ed;
+	text-decoration: none;
+
+}
+
+/* SUBSCRIPTION */
+#subscription {
+	position:absolute;
+	top:136px;
+	left:-31px
+}
+#subscription h3 {
+	padding-left: 40px;
+}
+#subscribe_form {
+	background: url(../images/bg_subscribe_form.png) 0 0 no-repeat;
+	top: 46px;
+	position: absolute;
+	left: 41px;
+	width: 258px;
+}
+#subscribe_form .text {
+	float: left;
+	width: 169px;
+	padding: 6px 12px;
+	font-size: 15px;
+	color: black;
+	background: transparent;
+	border: 0;
+}
+#subscribe_form .submit {
+	float: right;
+	width: 65px;
+	height: 35px;
+	font-size: 14px;
+	color: #fff;
+	background: transparent;
+	border: 0;
+	text-indent: -9999px;
+	font-size: 0;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+/* BUZZ */
+#buzz {
+	position:absolute;
+	width: 256px;
+	top: 136px;
+	left: 339px;
+}
+#buzz h3 {
+	margin-bottom: 23px;
+}
+#buzz h6 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+#buzz h6 a, #buzz h6 a:visited {
+	color: #0374ed;
+	text-decoration: none;
+}
+#buzz p {
+	font-size: 1.2em;
+	color: #0374ed;
+}
+
+/*Follow*/
+#follow {
+	position:absolute;
+	top: 136px;
+	left: 699px;
+}
+#follow .sharing {
+	margin-top: 20px;
+	margin-left: -3px;
+}
+#follow  .sharing li {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0 32px 0 0;
+}
+#follow  .sharing  a {
+	background-image:url(../images/icons_sprite.png);
+	background-repeat: no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 57px;
+	height: 75px;
+}
+.sharing .icon_facebook {
+	background-position: 0 0;
+}
+.sharing .icon_facebook:hover {
+	background-position: 0 -75px;
+}
+.sharing .icon_twitter {
+	background-position: -57px 0;
+}
+.sharing .icon_twitter:hover {
+	background-position: -57px -75px;
+}
+
+/*Coypright*/
+#copyright {
+	position: absolute;
+	top: 324px;
+	left:-2px;
+	font-size: 12px;
+	color: #3C3C3C;
+	width: 100%;
+
+}
+.sep {color: #787878;}
+#s1 {position:absolute;top:139px;left:299px}
+#s2 {position:absolute;top:139px;left:659px}
+#copyright a {color: #0374ED; text-decoration: none;}
+
+#copyright .left {
+	float: left;
+}
+#copyright .right {
+	float: right;
+	margin-right:0
+}
+
+#subscribe_form p { position:relative }
+#subscribe_form label  { position:absolute; top:9px; left:12px; font-size:15px; color: #A5A5A5; }
+
+/*** LEVEL 2 ***/
+body.level2 article {
+	background:#f0f0f0;
+}
+body.level2 header {
+	background: url(../images/bg2.jpg);
+	height: 153px;
+}
+body.level1 footer {height:338px;background-position:0 -98px;margin-top:98px;}
+body.level2 footer {height:270px;background-position:0 -98px}
+body.level2 footer #count {display:none}
+body.level2 footer #subscription {top:37px}
+body.level2 footer #buzz {top:37px}
+body.level2 footer #follow {top:37px}
+body.level2 footer #copyright {top:225px}
+body.level2 footer #s1 {top:40px}
+body.level2 footer #s2 {top:40px}
+
+img#loader {
+	position: absolute; 
+	top: 8px;
+	left: 264px;
+}
+
+#subscribed {
+	font-size: 14px;
+	margin-left: 40px;
+	width: 270px;
+	line-height: 19px;
+	margin-top: 15px;'
+}
+
+#wrongemail {
+	margin-top: 10px;
+	margin-left: 11px;
+	font-size: 12px;
+	display: none;
+}

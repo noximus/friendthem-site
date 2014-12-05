@@ -1,0 +1,83 @@
+#how-it-works {
+	position:relative;
+	width: 702px;
+	height: 809px;
+	padding: 33px 0 135px 1px
+}
+#how-it-works h1 {
+	display:block;
+	color:#25b29d;
+	text-indent:-9999px;
+	width:700px;
+	height:25px;
+	background:url(../images/h1.png);
+	margin-left: 0;
+	margin-bottom: 31px;
+}
+#how-it-works h2 {
+	display:block;
+	text-indent:-9999px;
+	width:423px;
+	height:19px;
+	background:url(../images/h2.png);
+	margin-left: 139px;
+	margin-bottom:50px
+}
+#how-it-works h3 {
+	font-size: 19px;
+	margin-bottom: 13px;
+}
+#how-it-works h4 {
+	position: absolute;
+	font-size: 19px;
+	top: 30px;
+	left: 316px;
+	line-height: 25px;
+}
+#how-it-works p {
+	font-size: 14px;
+	line-height: 20px;
+}
+#how-it-works ul li {
+	padding-left: 315px;
+	height: 139px;
+	width: 296px;
+	list-style-type:none;
+}
+
+#how-it-works hr {
+	margin-top: 50px;
+	margin-bottom: 34px;
+	border-top: 1px solid #D8D8D8;
+}
+
+#i1 {
+	background:url(../images/image1.jpg) 67px 5px no-repeat;
+}
+#i2 {
+	background:url(../images/image2.jpg) 67px 8px no-repeat;
+	padding-top: 4px;
+	margin-bottom: -4px;
+}
+#i3 {
+	background:url(../images/image3.jpg) 63px 6px no-repeat;
+	padding-top: 31px;
+	margin-bottom: -31px;
+}
+
+#download {
+	background:url(../images/bg-download.jpg);
+	width:703px;
+	height:181px;
+	position:relative;
+}
+#download a {
+	position:absolute;
+	top: 94px;
+	left: 311px;
+	width:222px;
+	height:58px;
+}/*
+#download a:hover {
+	background:url(../images/btn-download-over.png);
+}*/

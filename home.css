@@ -1,0 +1,45 @@
+body {
+	background:#002753 url(../images/bg.jpg) no-repeat center top;
+	background-size: 100%;
+	-moz-background-size:  100%;
+}
+
+/*** SECTION ***/
+article section {
+	height: 525px;
+	position:relative;
+	margin:0 auto
+}
+
+article section h1.title {
+	margin: 0;
+	background: url(../images/title_location_based_friend_request.png) 0 0 no-repeat;
+	height: 52px;
+	margin: 0 0 14px;
+	text-indent: -9999px;
+}
+article section h2.title {
+	margin: -3px 0 26px;
+	color: white;
+	line-height: 19px !important;
+	font: normal 14px Helvetica Neue,Helvetica,Arial,sans-serif;
+	text-shadow: #17203d 0 1px 0;
+	filter: Shadow(Color=#17203d,Direction=180,Strength=2)
+}
+#banner_content {
+	position:absolute;
+	left: 128px;
+	top: 85px;
+	width: 244px;
+}
+#banner_content p {
+	margin: 0 0 24px;
+}
+#button_watch_video {
+	background-image: url(../images/button_watch_video.png);
+}
+#iphone {
+	position:absolute;
+	left: 462px;
+	top: 23px;
+}
